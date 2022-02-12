@@ -22,13 +22,12 @@ const Services = () => (
     <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
       <div className="flex-1 flex flex-col justify-start items-start">
         <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
-          Services that we
+        Trees provide food, protection, 
           <br />
-          continue to improve
+          and homes for many birds and mammals.
         </h1>
         <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
-          The best choice for buying and selling your crypto assets, with the
-          various super friendly services we offer
+          Remember that planting trees can save our environment. Donate today and support our cause!
         </p>
       </div>
 
@@ -37,19 +36,19 @@ const Services = () => (
           color="bg-[#2952E3]"
           title="Security gurantee"
           icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="Security is guranteed. We always maintain the privacy of our donors"
         />
         <ServiceCard
           color="bg-[#8945F8]"
-          title="Best exchange rates"
+          title="Transparency"
           icon={<BiSearchAlt fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="Donors can subscribe to our mailing lists to recieve updates on the impact of their donations"
         />
         <ServiceCard
           color="bg-[#F84550]"
-          title="Fastest transactions"
+          title="No administrative Costs"
           icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-          subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+          subtitle="100% of your donations are used for tree planting and maintainence costs"
         />
       </div>
     </div>
